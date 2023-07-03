@@ -1,0 +1,18 @@
+body {
+	width: 16em;
+	border: 0;
+	background-color: #fff;
+	color: #000;
+}
+
+.hide {
+ display: none;
+}
+
+#actions {
+ display: block;
+}
+
+#custom_ua_form {
+ display: block;
+}

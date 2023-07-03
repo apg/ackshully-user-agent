@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Privacy User-Agent Override</title>
+		<link rel="stylesheet" href="popup.css"/>
+	</head>
+  <body>
+	  <div id="actions">
+      <form id="form">
+		    <input type="hidden" name="current_domain" value="" class="current_domain">
+		    <div class="using_actual hide">
+          <p>This domain uses the <em>actual</em> user agent.</p>
+			    <button class="save" id="btnResetThisDomain">Use <em>Default</em> User Agent</button>
+		    </div>
+		    <div class="using_default hide">
+          <p>This domain uses the <em>default</em> user agent.</p>
+			    <button class="save" id="btnOverrideThisDomain">Use <em>Actual</em> User Agent</button>
+		    </div>
+      </form>
+	  </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
